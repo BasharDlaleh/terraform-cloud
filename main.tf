@@ -85,7 +85,7 @@ resource "aws_security_group" "sg_my_server" {
   }
 
   tags = {
-    Name = "MyServer Security Group"
+    Name = "My-Server Security Group"
   }
 }
 
