@@ -48,7 +48,7 @@ resource "aws_instance" "my_server" {
     command = "echo ${self.private_ip} >> private_ips.txt"
   }
   tags = {
-    Name = "MyServer"
+    Name = "My-Server"
   }
 }
 
